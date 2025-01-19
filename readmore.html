@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeR4U</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .card {
+            background-color: #fff;
+            width: 280px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .card img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+        }
+        .card h3 {
+            color: #005f99;
+            margin: 15px 0;
+        }
+        .card p {
+            padding: 0 15px 15px;
+            color: #555;
+        }
+        a {
+            text-decoration: none;
+            color: #005f99;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #ff6f00;
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .logo img {
+            max-width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img src="web1.png" alt="Company Logo">
+    </div>
+    <div class="container">
+        <div class="card">
+            <img src="mission.jpg" alt="Mission and Vision">
+            <h3>Our Mission and Vision</h3>
+            <p><a href="#mission">Learn More</a></p>
+        </div>
+        <div class="card">
+            <img src="history.jpg" alt="Company History">
+            <h3>Company History</h3>
+            <p><a href="#history">Learn More</a></p>
+        </div>
+        <div class="card">
+            <img src="team.jpg" alt="Our Team">
+            <h3>Meet Our Team</h3>
+            <p><a href="#team">Learn More</a></p>
+        </div>
+        <div class="card">
+            <img src="values.jpg" alt="Core Values">
+            <h3>Core Values</h3>
+            <p><a href="#values">Learn More</a></p>
+        </div>
+        <div class="card">
+            <img src="serve.png" alt="Our Services">
+            <h3>Our Services</h3>
+            <p><a href="#services">Learn More</a></p>
+        </div>
+        <div class="card">
+            <img src="innovation.jpg" alt="Innovation">
+            <h3>Innovation and Technology</h3>
+            <p><a href="#innovation">Learn More</a></p>
+        </div>
+        <div class="card">
+            <img src="sustainability.jpg" alt="Sustainability">
+            <h3>Sustainability Initiatives</h3>
+            <p><a href="#sustainability">Learn More</a></p>
+        </div>
+        <div class="card">
+            <img src="info.png" alt="Contact Us">
+            <h3>Contact and Support</h3>
+            <p><a href="#contact">Get in Touch</a></p>
+        </div>
+    </div>
+</body>
+</html>
